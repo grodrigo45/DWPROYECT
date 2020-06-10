@@ -25,7 +25,6 @@ main {
     display: flex;
     flex: 1 1 auto;
     flex-flow: column;
-    overflow-y: scroll;
 }
 
 .Cabecera {
@@ -86,6 +85,11 @@ main {
 .ListaMusi h1 {
     text-transform: uppercase;
     font-family: 'Balsamiq Sans', cursive;
+}
+
+ul{
+  height: 300px ;
+  overflow-y: scroll;
 }
   
 li {
